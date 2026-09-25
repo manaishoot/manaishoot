@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jaya Prakash Reddy — social media video creator, creator content producer and digital marketer at Mana iShots.">
+  <title>Jaya Prakash Reddy — Mana iShots</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Mana iShots home">
+      <img src="assets/mana-ishoot-logo.jpeg" alt="Mana iShots logo">
+      <span>Jaya Prakash <span>Reddy</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#categories">Categories</a>
+      <a href="#results">Results</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="tel:+918286538777">Book a shoot <span>↗</span></a>
+    <button class="menu" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <a href="#work"><span>01</span> Work</a>
+      <a href="#categories"><span>02</span> Categories</a>
+      <a href="#results"><span>03</span> Results</a>
+      <a href="#process"><span>04</span> Process</a>
+      <a href="#contact"><span>05</span> Contact</a>
+    </div>
+  </div>
+
+
+  
+  <!-- PROFILE PHOTO PLACEHOLDER
+       Add Jaya Prakash Reddy's portrait later as:
+       assets/jaya-prakash-reddy.jpg
+       The CSS will automatically use it when present.
+  -->
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><i></i> Social-first video creator</p>
+        <h1>Not just shots.<br><em>Pure emotion.</em></h1>
+        <p class="hero-text">Cinematic reels, creator content, event stories and brand promotions — captured for the way people watch today.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#work">Explore work <span>↓</span></a>
+          <a class="button button-ghost" href="tel:+918286538777">Book a shoot</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-frame">
+          <img src="assets/instagram-page-overview.jpeg" alt="Mana iShoot Instagram profile and reels">
+          <div class="floating-card">
+            <span>30 DAY REACH</span>
+            <strong>409.1K</strong>
+            <small>Instagram views</small>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-note">SCROLL TO CREATE <span>↓</span></div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="section-kicker reveal">01 / About</div>
+      <div class="about-grid">
+        <div class="creator-profile reveal">
+          <div class="creator-photo-placeholder">
+            <img src="assets/jaya-prakash-reddy.jpg" alt="Jaya Prakash Reddy portrait">
+          </div>
+          <div class="creator-name">
+            <span class="eyebrow">FOUNDER / CREATOR</span>
+            <h3>Jaya Prakash<br><span>Reddy</span></h3>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <h2>Visual stories built<br><span>for social.</span></h2>
+          <p>Jaya Prakash Reddy creates social-first video for creators, personalities, celebrations and brands. The approach is simple: capture the real moment, shape it into a strong story, and make it ready for the feed.</p>
+          <div class="mini-list">
+            <div><b>01</b> Shoot</div><div><b>02</b> Edit</div><div><b>03</b> Publish</div><div><b>04</b> Grow</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="section-head reveal">
+        <div>
+          <div class="section-kicker">02 / Featured work</div>
+          <h2>Made to be <span>watched.</span></h2>
+        </div>
+        <a class="text-link" href="#categories">Browse categories ↗</a>
+      </div>
+
+      <div class="watch-intro reveal">
+        <p>Scroll through the work, choose a category, and explore the moments behind each reel.</p>
+        <div class="watch-controls" aria-label="Featured work controls">
+          <button class="watch-arrow" id="watchPrev" type="button" aria-label="Previous videos">←</button>
+          <button class="watch-arrow" id="watchNext" type="button" aria-label="Next videos">→</button>
+        </div>
+      </div>
+
+      <div class="watch-categories reveal" id="watchCategories" aria-label="Video categories"></div>
+
+      <div class="watch-track" id="watchTrack" aria-live="polite"></div>
+
+      <div class="watch-progress" aria-hidden="true">
+        <span id="watchProgress"></span>
+      </div>
+
+      <p class="section-note">Content is data-driven. Add or edit videos, categories and performance data in <code>data.json</code> — no JavaScript changes required.</p>
+    </section>
+
+    <section id="categories" class="categories section">
+      <div class="section-kicker reveal">03 / Shoot categories</div>
+      <div class="category-intro reveal">
+        <h2>Every moment<br><span>has a format.</span></h2>
+        <p>Organize future work by shoot type. Each category is designed to become its own vertical-video gallery as you add projects.</p>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+    <section id="results" class="results section">
+      <div class="section-kicker reveal">04 / Social proof</div>
+      <div class="results-grid">
+        <div class="results-copy reveal">
+          <p class="eyebrow"><i></i> Instagram performance</p>
+          <h2>Creative work with<br><span>measurable reach.</span></h2>
+          <p>The supplied Instagram insights show the account reaching beyond its follower base through Reels. The numbers below are from the provided 30-day Instagram insights screenshot.</p>
+          <div class="stats">
+            <div><strong>409.1K</strong><span>views / 30 days</span></div>
+            <div><strong>13,994</strong><span>interactions</span></div>
+            <div><strong>153.3K</strong><span>viewers</span></div>
+            <div><strong>305K</strong><span>Reels views</span></div>
+          </div>
+        </div>
+        <div class="insights-card reveal">
+          <img src="assets/instagram-reach.jpeg" alt="Instagram Insights showing 409,122 views and 13,994 interactions over 30 days">
+          <div class="insight-caption"><span>INSTAGRAM INSIGHTS</span><b>30 DAYS</b></div>
+        </div>
+      </div>
+      <div class="profile-proof reveal">
+        <div class="profile-image"><img src="assets/instagram-page-overview.jpeg" alt="Mana iShoot Instagram profile"></div>
+        <div>
+          <span class="eyebrow">ACCOUNT SNAPSHOT</span>
+          <h3>@mana_ishoot</h3>
+          <p>Reel creator · iPhone cinematic reels · all events · booking open</p>
+          <div class="profile-stats"><span><b>28</b> posts</span><span><b>202</b> followers</span><span><b>0</b> following</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section">
+      <div class="section-kicker reveal">05 / Services</div>
+      <div class="service-grid">
+        <div class="service-lead reveal"><h2>One creator.<br><span>Many formats.</span></h2></div>
+        <div class="service-item reveal"><b>01</b><h3>Social Media Reels</h3><p>Short-form video designed around attention, emotion and platform-native pacing.</p></div>
+        <div class="service-item reveal"><b>02</b><h3>Creator Content</h3><p>Professional content for creators, personalities and public-facing profiles.</p></div>
+        <div class="service-item reveal"><b>03</b><h3>Event Coverage</h3><p>Birthdays, baby showers, weddings, rallies and celebrations captured as shareable stories.</p></div>
+        <div class="service-item reveal"><b>04</b><h3>Brand Promotions</h3><p>Product and campaign content built for social feeds and creator collaborations.</p></div>
+        <div class="service-item reveal"><b>05</b><h3>Personal Branding</h3><p>Visual content that gives professionals and entrepreneurs a strong social presence.</p></div>
+        <div class="service-item reveal"><b>06</b><h3>Digital Marketing</h3><p>Content thinking that connects the shoot with publishing, positioning and growth.</p></div>
+      </div>
+    </section>
+
+    <section id="process" class="process section">
+      <div class="section-kicker reveal">06 / Process</div>
+      <h2 class="reveal">From real moment<br><span>to real reach.</span></h2>
+      <div class="process-line">
+        <div class="process-step reveal"><span>01</span><h3>Plan</h3><p>Understand the person, event, audience and goal.</p></div>
+        <div class="process-step reveal"><span>02</span><h3>Shoot</h3><p>Capture cinematic, mobile-first footage with intention.</p></div>
+        <div class="process-step reveal"><span>03</span><h3>Edit</h3><p>Turn footage into sharp, emotional, social-ready reels.</p></div>
+        <div class="process-step reveal"><span>04</span><h3>Publish & Grow</h3><p>Package content for social and track what resonates.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-card reveal">
+        <div class="section-kicker">07 / Contact</div>
+        <h2>Have a moment<br>worth <span>shooting?</span></h2>
+        <p>Let's turn it into content people remember.</p>
+        <div class="contact-actions">
+          <a class="button button-light" href="tel:+918286538777">Call / Book a shoot ↗</a>
+          <a class="button button-outline" href="https://instagram.com/mana_ishoot" target="_blank" rel="noopener">Instagram ↗</a>
+        </div>
+        <small>Cnditions Applied</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><img src="assets/mana-ishoot-logo.jpeg" alt="Mana iShots logo"><span>Jaya Prakash <span>Reddy</span></span></div>
+    <p>Not just shots. Pure emotion.</p>
+    <span>© 2026 Mana iShots</span>
+  </footer>
+
+  <div class="modal" id="videoModal" aria-hidden="true">
+    <div class="modal-inner">
+      <button class="modal-close" aria-label="Close">×</button>
+      <div id="galleryContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <footer class="site-footer">
+    <p>© 2026 Mana iShots · Made by <span>Akhil Charan Teja</span></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,216 @@
+{
+  "site": {
+    "name": "Mana iShots",
+    "creator": "Jaya Prakash Reddy",
+    "title": "Jaya Prakash Reddy — Mana iShots",
+    "tagline": "Not just shots. Pure emotion.",
+    "role": "Social-first video creator",
+    "description": "Cinematic reels, creator content, event stories and brand promotions — captured for the way people watch today.",
+    "phone": "+918286538777",
+    "instagram": "https://instagram.com/mana_ishoot",
+    "copyright": "© 2026 Mana iShots"
+  },
+  "hero": {
+    "image": "assets/instagram-page-overview.jpeg",
+    "imageAlt": "Mana iShoot Instagram profile and reels",
+    "reachLabel": "30 DAY REACH",
+    "reach": "409.1K",
+    "reachNote": "Instagram views"
+  },
+  "about": {
+    "eyebrow": "FOUNDER / CREATOR",
+    "heading": "Visual stories built",
+    "headingAccent": "for social.",
+    "description": "Jaya Prakash Reddy creates social-first video for creators, personalities, celebrations and brands. The approach is simple: capture the real moment, shape it into a strong story, and make it ready for the feed.",
+    "steps": [
+      "Shoot",
+      "Edit",
+      "Publish",
+      "Grow"
+    ]
+  },
+  "categories": [
+    {
+      "id": "birthday",
+      "label": "Birthday",
+      "subtitle": "Celebrations / Reels"
+    },
+    {
+      "id": "baby-shower",
+      "label": "Baby Shower",
+      "subtitle": "Family / Moments"
+    },
+    {
+      "id": "wedding",
+      "label": "Wedding",
+      "subtitle": "Cinematic / Couple"
+    },
+    {
+      "id": "insta-reels",
+      "label": "Insta Reels",
+      "subtitle": "Reach / Energy"
+    },
+    {
+      "id": "brand-promotions",
+      "label": "Brand Promotions",
+      "subtitle": "Products / Campaigns"
+    },
+    {
+      "id": "personal-branding",
+      "label": "Personal Branding",
+      "subtitle": "Professionals / Profiles"
+    },
+    {
+      "id": "creator-content",
+      "label": "Creator Content",
+      "subtitle": "Instagram / Reels"
+    },
+    {
+      "id": "events",
+      "label": "Events & Celebrations",
+      "subtitle": "Live / Highlights"
+    }
+    
+  ],
+  "stats": {
+    "views30Days": "409.1K",
+    "views30DaysExact": "409,122",
+    "netFollowers": "+61",
+    "interactions": "13,994",
+    "viewers": "153.3K",
+    "reelsViews": "305K",
+    "followers": "202",
+    "posts": "28",
+    "following": "0",
+    "followerShare": "10.2%",
+    "nonFollowerShare": "89.8%"
+  },
+  "videos": [
+    {
+      "id": "c-1",
+      "file": "c-1.mp4",
+      "title": "Creator Content",
+      "category": "creator-content",
+      "label": "CREATOR CONTENT",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790342521/c-1.mp4",
+      "featured": true
+    },
+    {
+      "id": "re",
+      "file": "re.mp4",
+      "title": "Insta Reels",
+      "category": "insta-reels",
+      "label": "INSTA REELS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790343377/re.mp4",
+      "featured": true
+    },
+    {
+      "id": "mom",
+      "file": "mom.mp4",
+      "title": "Moments",
+      "category": "baby-shower",
+      "label": "BABY SHOWER / MOMENTS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790343731/mom.mp4",
+      "featured": true
+    },
+    {
+      "id": "mom-to-be",
+      "file": "mom_to_be.mp4",
+      "title": "Mom To Be",
+      "category": "baby-shower",
+      "label": "BABY SHOWER / MOMENTS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790343813/mom_to_be.mp4",
+      "featured": true
+    },
+    {
+      "id": "birthday",
+      "file": "birthday.mp4",
+      "title": "Birthday",
+      "category": "birthday",
+      "label": "BIRTHDAY / REELS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790343816/birthday.mp4",
+      "featured": true
+    },
+    {
+      "id": "independence-day",
+      "file": "indipendence_day.mp4",
+      "title": "Independence Day",
+      "category": "events",
+      "label": "INDEPENDENCE DAY",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790344341/indipendence_day.mp4",
+      "featured": true
+    },
+    {
+      "id": "wedding-rally",
+      "file": "wedding-rally.mov",
+      "title": "Wedding Rally",
+      "category": "wedding",
+      "label": "WEDDING RALLY / ENERGY",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790344478/wedding-rally.mov",
+      "featured": true
+    },
+    {
+      "id": "brand-2",
+      "file": "brand-2.mp4",
+      "title": "Brand Promotion",
+      "category": "brand-promotions",
+      "label": "BRAND PROMOTION",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790344927/brand-2.mp4",
+      "featured": true
+    },
+    {
+      "id": "brand-2",
+      "file": "brand-2.mp4",
+      "title": "Brand Promotion",
+      "category": "brand-promotions",
+      "label": "BRAND PROMOTION",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790353981/p03.mp4",
+      "featured": true
+    },
+    {
+      "id": "brand-promotion",
+      "file": "brand-promotion.mp4",
+      "title": "Brand Promotion",
+      "category": "brand-promotions",
+      "label": "BRAND PROMOTION",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790344965/brand-promotion.mp4",
+      "featured": true
+    },
+    {
+      "id": "baby-shower",
+      "file": "baby_shower.mp4",
+      "title": "Baby Shower",
+      "category": "baby-shower",
+      "label": "BABY SHOWER / MOMENTS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790344994/baby_shower.mp4",
+      "featured": true
+    },
+    {
+      "id": "blessing",
+      "file": "blessing.mov",
+      "title": "Blessing",
+      "category": "events",
+      "label": "EVENTS & CELEBRATIONS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790345050/blessing.mov",
+      "featured": true
+    },
+    {
+      "id": "surprise-video",
+      "file": "suprise_video.mp4",
+      "title": "Surprise Video",
+      "category": "events",
+      "label": "EVENTS & CELEBRATIONS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790345273/suprise_video.mp4",
+      "featured": true
+    },
+    {
+      "id": "ir-2",
+      "file": "ir-2.mp4",
+      "title": "Insta Reels",
+      "category": "insta-reels",
+      "label": "INSTA REELS",
+      "url": "https://res.cloudinary.com/taf01r6d/video/upload/v1790345361/ir-2.mp4",
+      "featured": true
+    }
+  ]
+}
